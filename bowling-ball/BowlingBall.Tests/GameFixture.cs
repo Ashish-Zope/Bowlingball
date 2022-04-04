@@ -14,8 +14,6 @@ namespace BowlingBall.Tests
             Assert.AreEqual(0, game.GetScore());
         }
 
-
-
         [TestMethod]
         public void Gutter_game_score_should_return_value_187()
         {

@@ -41,11 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contacts\IFrameService.cs" />
+    <Compile Include="Contacts\IRollService.cs" />
     <Compile Include="Dtos\Frame.cs" />
     <Compile Include="Enums\FrameState.cs" />
     <Compile Include="Enums\FrameType.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\FrameService.cs" />
+    <Compile Include="Services\LastRoll.cs" />
+    <Compile Include="Services\NormalFrame.cs" />
+    <Compile Include="Services\SpareRollService.cs" />
+    <Compile Include="Services\StrikeRoll.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
